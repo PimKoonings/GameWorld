@@ -1,0 +1,367 @@
+
+html {
+    margin-bottom: 30px;
+}
+
+
+body
+{
+    background-image: url(../images/download.jpg);
+    background-size: auto;
+    margin: 0 auto;
+}
+
+#title
+{    
+    text-align: center;
+    color: rgb(170, 60, 60);
+    padding: 0%;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: rgb(206, 172, 172);
+    font-size: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#Home {
+    color: rgb(170, 60, 60);
+    text-decoration: none;
+    border-style: double;
+    background-color: #d1e7f4;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+    
+
+#Home:hover{
+    background-color: rgb(128, 69, 69);
+}
+
+#Games {
+    color: rgb(170, 60, 60);
+    text-decoration: none;
+    border-style: double;
+    background-color: #d1e7f4;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+    
+
+#Games:hover{
+    background-color: rgb(128, 69, 69);
+}
+
+
+header {
+    background-color: rgb(206, 172, 172);
+    margin: 0 auto;
+    width: 1500px;
+    
+}
+
+h1 {
+    text-align: LEFT;
+}
+
+
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(206, 172, 172);
+    color: white;
+    text-align: center;
+}
+#main-div {
+
+}
+
+#logo
+{
+    color: rgb(170, 60, 60);
+    font-size: 50px;
+    margin: 0 auto;
+    width: 800px;
+    text-align: center;
+    background-image: url(../../GameWorld/images/LOGO.png);
+    height: 600px;
+    background-size: cover;
+    
+}
+
+#playstation a{
+    width: 300px;
+    background-image: url(../images/Playstation.jpg);
+    height: 300px;
+    background-size: cover;
+    float: left;
+    margin-left: 495px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(170, 60, 60);
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 500px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#pc a{
+    width: 300px;
+    background-image: url(../images/windows.png);
+    height: 300px;
+    background-size: cover;
+    float: left;
+    margin-left: 10px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(170, 60, 60);
+    line-height: 500px;
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#xbox a{
+    width: 300px;
+    background-image: url(../images/xbox.jpeg);
+    height: 300px;
+    background-size: cover;
+    float: left;
+    margin-left: 10px;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(170, 60, 60);
+    background-position: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 500px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.product-item {
+    background-image: url(../images/wood-table-concrete-wall.jpg);
+    height: 425px;
+    width: 325px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+    background-size: cover;
+    position: relative;
+}
+
+
+.product-image{
+    height: 225px;
+    width: 200px;
+    margin-left: 62px;
+
+}
+
+
+.product-title {
+    font-size: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+}
+
+.product-price {
+    position: absolute;
+    margin-left: 120px;
+    bottom: 50px;
+    font-size: 35px;
+    color: rgb(255, 0, 55);
+    font-weight: 800;
+    border: solid rgb(35, 224, 83) 5px;
+
+}
+
+.product-order {
+    font-size: 40px;
+    margin-top: 1px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 90%;
+    background-color: rgb(170, 60, 60);
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 14px;;
+}
+
+.contact img{
+    height: 50px;
+    margin-left: 300px;
+    margin-top: 100px;
+    background-color: gray;
+    border: solid gray 3px;
+    border-collapse: collapse;
+    border-style: groove;
+}
+
+.contact {
+    height: 50px;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.aboutText {
+    border: solid white 2px;
+    color: black;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 300px;
+    left: 30%;
+}
+
+.aboutImg {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+
+
+  
+  .img__description {
+    height: 210px;
+    width: 200px;
+    margin-left: 62px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(29, 106, 154, 0.72);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+  
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+  }
+  
+  .product-item:hover .img__description {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .ps4Title {
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-size: 100px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .pcTitle {
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-size: 100px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .xboxTitle {
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-size: 100px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .allgamesTitle {
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 800;
+    font-size: 100px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .Table {
+    margin: 0 auto;
+    width: 78.2%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color:rgb(206, 172, 172, 0.7);
+  }
+
+  #TableHead {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 30px;
+  }  
+
+  .Tabletitle {
+    font-size: 50px;
+  }
+
+
+  .Table td:nth-child(3){  
+    width: 30%;
+    font-size: 20px;
+    border: 1px solid black;
+  }
+  .Table td:nth-child(2){
+    border: 1px solid black;
+    text-align: center;
+  }
+  .Table td:nth-child(1){
+    border: 1px solid black;
+    text-align: center;
+  }
+  .Table td:nth-child(4){
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .TableTotaal{
+      font-size: 30px;
+      text-align: right;
+  }
+
